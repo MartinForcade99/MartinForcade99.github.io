@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-image: url(img/fondo1edit.jpg);
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 0;
+}
+
+#menu li {
+    display: inline;
+    margin: 0px;
+    padding: 10px;
+}
+
+#menu li a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo1 {
+    width: 100px;
+}
+.logo2 {
+    width: 100px;
+
+}
+
+/* Pasamos al Inicio*/
+
+.records {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.records__1 {
+    width: 700px;
+    height: 800px;
+    background-color:black;
+    margin-right: 10px;
+    color: white;
+}
+
+.records__imagen1 {
+    width: 700px;
+    max-height: 500px;
+    margin-left: 10px;
+}
+
+/* Pasamos al Pie*/
+
+#pie {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#pie li {
+    display: inline;
+    padding: 10px;
+
+}
+
+.logo3 {
+    width: 100px;
+}
+
+/*
+.redes li {
+    display:;
+}
+*/
